@@ -30,8 +30,8 @@ win32 {
 unix {
 #    CONFIG += link_pkgconfig
 #    PKGCONFIG += libusb-1.0
-    LIBS += -L$$/home/xuan/libusb-1.0.22/android/libs/armeabi-v7a/ -lusb1.0
-    INCLUDEPATH += $$/home/xuan/libusb-1.0.22/libusb/
+    LIBS += -L$$PWD/../../libusb-1.0.22/android/libs/armeabi-v7a/ -lusb1.0
+    INCLUDEPATH += $$PWD/../../libusb-1.0.22/libusb/
 #DEPENDPATH += $$PWD/../../libusb-1.0.22/android/libs/armeabi-v7a
 }
 
